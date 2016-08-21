@@ -1,3 +1,124 @@
 body {
-	background: purple;
+	background: #2e6c8b;
 }
+
+.product-type {
+	color: white;
+	font-size: 18px;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+  	-webkit-font-smoothing: antialiased;
+}
+
+.img-thumbnail{
+	padding: 0;
+	background-color: #f7f7f7;
+	border: none;
+	text-align: center;
+}
+
+.products {
+	padding: 100px 0;
+}
+
+.product-price {
+	padding: 15px;
+}
+
+.price-static {
+  	padding-top: 6px;
+	font-size: 1.5em;
+	color: #4b4b4b;
+	text-align: left;
+}
+
+.price-static-toggled {
+	padding-top: 4px;
+	font-size: 1.25em;
+	color: #4b4b4b;
+	text-align: left;
+}
+
+.price-total {
+	color: #639800;
+	font-style: italic;
+	font-size: 12px;
+	margin: -15px;
+	padding-left: 15px;
+}
+
+.btn-custom {
+	background-color: #639800;
+	border-color: #4a7200;
+  	height: 50px;
+  	font-size: 1.5em;
+	color: white;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+  	-webkit-font-smoothing: antialiased;
+}
+
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:focus {
+  	background-color: #4a7200;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  	color: white;
+}
+
+.price-input {
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.qty {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  color: #aaa;
+}
+
+input[type=number]{
+	width: 80px;
+	height: 40px;
+	font-size: 24px;
+	padding: 0 2px 0 25px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+	background: #fff url('http://i.imgur.com/S5hjRuz.png') no-repeat 50% 50%;  
+    -webkit-appearance: none;
+    cursor: auto;
+    display: block;
+    width: 28px;
+    color: #333;
+    text-align: center;
+    opacity: 1;
+}  
+
+input[type=number]:hover::-webkit-inner-spin-button { 
+    background: #fff url('http://i.imgur.com/S5hjRuz.png') no-repeat 50% 50%;  
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    position: relative;
+    right: 0px;
+    opacity: 1;
+}
+
+@media(max-width:767px){
+	.container {
+		padding: 0px;
+		margin: 0px;
+		}
+	.img-thumbnail {
+		border-radius: 0;
+	}
+}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
